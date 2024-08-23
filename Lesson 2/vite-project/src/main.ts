@@ -81,17 +81,17 @@ import "./style.css";
 //   };
 // };
 
-// // type Animal = {
-// //   cat: {
-// //     meow: () => string;
-// //   };
-// //   dog: {
-// //     bark: () => string;
-// //   };
-// //   fish: {
-// //     swim: () => undefined;
-// //   };
-// // };
+// type Animal = {
+//   cat: {
+//     meow: () => string;
+//   };
+//   dog: {
+//     bark: () => string;
+//   };
+//   fish: {
+//     swim: () => undefined;
+//   };
+// };
 
 // type Cat = {
 //   meow: () => string;
@@ -105,14 +105,14 @@ import "./style.css";
 //   swim: () => undefined;
 // };
 
-// // Створення об'єктів типу Animal
+// Створення об'єктів типу Animal
 // let cat: Cat = {
 //   meow: () => "Meow! I am a cat"
 // };
 
-// // let cat: Animal[AnimalIds.cat] = {
-// //   meow: () => "Meow! I am a cat",
-// // };
+// let cat: Animal[AnimalIds.cat] = {
+//   meow: () => "Meow! I am a cat",
+// };
 
 // let dog: Dog = {
 //   bark: () => 'Woof! I am a dog',
@@ -244,17 +244,17 @@ import "./style.css";
 //   };
 // }
 
-// // interface BasicInfo {
-// //   name: string;
-// //   email: string;
-// // }
+// interface BasicInfo {
+//   name: string;
+//   email: string;
+// }
 
-// // function displayInfo(fullEmployeeInfo: Employee): BasicInfo {
-// //   return {
-// //     name: fullEmployeeInfo.name,
-// //     email: fullEmployeeInfo.email,
-// //   };
-// // }
+// function displayInfo(fullEmployeeInfo: Employee): BasicInfo {
+//   return {
+//     name: fullEmployeeInfo.name,
+//     email: fullEmployeeInfo.email,
+//   };
+// }
 
 // interface Employee {
 //   id: number;
@@ -297,7 +297,7 @@ import "./style.css";
 //   return temperatureRecord;
 // }
 
-// // Example usage:
+// Example usage:
 // const weeklyTemps = [22, 24, 23, 25, 24, 26, 27];
 // const tempRecord = recordTemperatures(weeklyTemps);
 // console.log(tempRecord);
@@ -314,11 +314,11 @@ import "./style.css";
 
 // type EmployeeBasicInfo = Omit<Employee, "hireDate">;
 
-interface User {
-  id: number;
-  name: string;
-  email: string;
-}
+// interface User {
+//   id: number;
+//   name: string;
+//   email: string;
+// }
 
 // async function fetchUser(): Promise<User> {
 //   try {
@@ -341,7 +341,6 @@ interface User {
 //     throw error;
 //   }
 // }
-
 
 // async function fetchUser<T>(url: string): Promise<T> {
 //   try {
